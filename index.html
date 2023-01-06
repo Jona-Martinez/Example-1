@@ -5,21 +5,183 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=1920px, initial-scale=1.0">
     <title>Example - 1</title>
-    <link rel="stylesheet" href="style.css">
+    <!--Css Links-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Icon Navigation-->
     <link rel="shortcut icon" href="img/Opened book illustration.jpg" type="image/x-icon">
+    <!--Font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap" rel="stylesheet"> 
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="#">Home</a>
-            <a href="#">About us</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-        </nav>
+    <header class="header" id="header">
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu" type="none">
+          <li class="nav-menu-item">
+            <a href="#header" class="nav-menu-link nav-link">Home</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#about-us" class="nav-menu-link nav-link">About us</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#services" class="nav-menu-link nav-link">Services</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#footer" class="nav-menu-link nav-link nav-menu-link_active"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+        <section class="text-header">
+            <h1>Potencia tus ventas al menos un 200%</h1>
+            <h2>Con una página web potente</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;" ><path d="M-0.27,37.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
     </header>
+    <main class="main">
+        <section class="container about-us" id="about-us">
+            <h2 class="tittle">Nuestro Producto</h2>
+            <div class="container-about-us">
+                <img src="img/undraw_cloud_hosting_7xb1.svg" alt="" class="images-about-us">
+                <div class="text-content">
+                    <h3><span>1</span>Los mejores productos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, in quidem recusandae, odio saepe, quasi quae quis voluptatibus laborum nemo quos accusantium voluptates officiis reprehenderit possimus explicabo repudiandae incidunt eaque.</p>                    <h3><span>2</span>Los mejores precios</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, in quidem recusandae, odio saepe, quasi quae quis voluptatibus laborum nemo quos accusantium voluptates officiis reprehenderit possimus explicabo repudiandae incidunt eaque.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="tittle">Portafolio</h2>
+                <div class="portfolio-galery">
+                    <div class="images-port">
+                        <img src="img/img1.jpg" alt="Image">
+                        <div class="galery-hover">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="images-port">
+                        <img src="img/img2.jpg" alt="">
+                        <div class="galery-hover">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="images-port">
+                        <img src="img/img3.jpg" alt="Image">
+                        <div class="galery-hover">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="images-port">
+                        <img src="img/img4.jpg" alt="Image">
+                        <div class="galery-hover">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="images-port">
+                        <img src="img/img5.jpg" alt="Image">
+                        <div class="galery-hover">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="images-port">
+                        <img src="img/img6.jpg" alt="Image">
+                        <div class="galery-hover">
+                            <img src="img/icono1.png" alt="Icon">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="images-port">
+                        <img src="img/img7.jpg" alt="Image">
+                        <div class="galery-hover">
+                            <img src="img/icono1.png" alt="Icon">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="images-port">
+                        <img src="img/img8.jpg" alt="Image">
+                        <div class="galery-hover">
+                            <img src="img/icono1.png" alt="Icon">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients container">
+            <h2 class="tittle">Que dicen nuestros clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/face1.jpg" alt="First-client">
+                    <div class="text-container-card">
+                        <h4>Susan</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, quaerat.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/face2.jpg" alt="Second-client">
+                    <div class="text-container-card">
+                        <h4>Ellen</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, quaerat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="container" id="services">
+                <h2 class="tittle">Nuestros Servicios</h2>
+                <div class="cont-service">
+                    <div class="service-ind">
+                        <img src="img/ilustracion4.svg" alt="">
+                        <h3>Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nemo?</p>
+                    </div>
+                    <div class="service-ind">
+                        <img src="img/ilustracion2.svg" alt="">
+                        <h3>Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nemo?</p>
+                    </div>
+                    <div class="service-ind">
+                        <img src="img/ilustracion3.svg" alt="">
+                        <h3>Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nemo?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <h4>Phone</h4>
+                <p>(0981)345-213</p>
+            </div>
+            <div class="footer-content">
+                <h4>Email</h4>
+                <p>example@gmail.com</p>
+            </div>
+            <div class="footer-content">
+                <h4>Location</h4>
+                <p>Asunción - Paraguay</p>
+            </div>
+        </div>
+        <h2 class="final-tittle">&copy; Stratton Web Design | Jonathan Martinez</h2>
+    </footer>
 
-
-
+    <!--Javascript-->
+    <script src="/javascript/main.js"></script>
 </body>
 </html>
